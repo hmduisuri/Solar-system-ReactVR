@@ -101,13 +101,11 @@ export default class solarsystem extends React.Component {
                 {rotateY: this.state.rotation}
               ]
             }}
-            >
-          </Model>
-       
- 
+            />
+            
         <Model
-        texture = {asset('mercury.jpg')}
-        lit
+          texture = {asset('mercury.jpg')}
+          lit
           source = {{obj: asset('sphere.obj')}}
           style = {{
             transform: [
